@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Excellence_Giftwrap::giftwrap" title="Gift Wrap" module="Excellence_Giftwrap" sortOrder="30" parent="Excellence_Base::base" resource="Excellence_Base::base"/>
+        <add id="Excellence_Giftwrap::giftwrap_manage" title="Manage Gift Wrappers" module="Excellence_Giftwrap" sortOrder="10" parent="Excellence_Giftwrap::giftwrap" action="giftwrap/index/" resource="Excellence_Giftwrap::manage"/>
+        <add id="Excellence_Giftwrap::giftwrap_manage_config" title="Configuration" module="Excellence_Giftwrap" sortOrder="20" parent="Excellence_Giftwrap::giftwrap" action="adminhtml/system_config/edit/section/giftwrap" resource="Excellence_Giftwrap::manage"/>
+    </menu>
+</config>
