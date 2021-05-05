@@ -28,7 +28,6 @@ ________________________________________________________________________________
 		<div>:pencil2: Now the Giftwrap is ready to visible on giftwrap tab on checkout.</div>
 				<div>:pencil2: You can disable any Giftwrap if you dont want to show.</div>
 
-	</div>
 </div>
 
 
